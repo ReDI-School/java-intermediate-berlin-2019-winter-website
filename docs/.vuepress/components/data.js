@@ -26,7 +26,7 @@ const teachers = {
     },
     'Alina': {
         name: 'Alina',
-        avatar: 'https://ui-avatars.com/api/?name=A&size=100'
+        avatar: 'https://d1bvpoagx8hqbg.cloudfront.net/259/f6d651a6c17d8890fbebd437745e2958.jpg'
     }
 }
 
