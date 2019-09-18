@@ -7,7 +7,8 @@ module.exports = {
         '/lessons/01-intro',
         '/lessons/02-git',
         '/lessons/03-string-operations',
-        '/lessons/05-oop-objects-classes'
+        '/lessons/05-oop-objects-classes',
+        '/lessons/09-oop-recap-polymorphism'
       ],
       '/teachers': [
         '/teachers/for-teachers',
