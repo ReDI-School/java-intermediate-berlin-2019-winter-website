@@ -197,5 +197,24 @@ public class Main {
  - Create an interface Movable with a method moveTo(int x, int y)
  - Make BlueRobot movable 
  - Move your blue (& purple) robots to different directions
+ 
+### Exercise 3 (Optional)
+ - Create a class Human that implements interface Movable
+ - Create an object of the class Human
+ - Add this object to you Movable array
+ 
+### Exercise 4 (Optional)
+ - Create a class Square that extends Rectangular 
+ - (Hint) a Square is a Rectangular with the same width and length
+ - Create a Constructor with one parameter: side
+ 
+### Exercise 5 (Optional)
+ - Create many different shapes (Circle, Rectangular, Square, Triangle)
+ - add all of them to the array of Shapes
+ - for every shape in the array calculate Area
 
+### Exercise 6 (Optional)
+ - Make abstract class Shape Movable
+ - Implement method move() in the Shape class (abstract class can have methods with behaviour)
+ 
 ### Preject !!!
