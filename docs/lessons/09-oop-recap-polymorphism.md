@@ -216,5 +216,6 @@ public class Main {
 ### Exercise 6 (Optional)
  - Make abstract class Shape Movable
  - Implement method move() in the Shape class (abstract class can have methods with behaviour)
+ - Now you can move shapes and robots together
  
 ### Preject !!!
