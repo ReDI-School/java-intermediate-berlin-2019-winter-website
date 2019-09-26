@@ -10,7 +10,8 @@ module.exports = {
         '/lessons/05-oop-objects-classes',
         '/lessons/07-oop-excercises-overloadings',
         '/lessons/preject',
-        '/lessons/09-oop-recap-polymorphism'
+        '/lessons/09-oop-recap-polymorphism',
+        '/lessons/10-data-structures-array-lists'
       ],
       '/teachers': [
         '/teachers/for-teachers',
