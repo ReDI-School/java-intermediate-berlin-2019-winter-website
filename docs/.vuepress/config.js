@@ -9,6 +9,8 @@ module.exports = {
         '/lessons/03-string-operations',
         '/lessons/05-oop-objects-classes',
         '/lessons/07-oop-excercises-overloadings'
+        '/lessons/preject',
+        '/lessons/09-oop-recap-polymorphism'
       ],
       '/teachers': [
         '/teachers/for-teachers',
