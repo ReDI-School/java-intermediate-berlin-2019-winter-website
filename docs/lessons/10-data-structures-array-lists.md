@@ -8,13 +8,13 @@
 - ArrayList
 - Exercises (Countries: landlocked ones versus sea ones)
 
-## Data structure Slides
+## Slides
 
-- [https://s3.eu-central-1.amazonaws.com/saorico.com/j2x/index.html]
+- (https://s3.eu-central-1.amazonaws.com/saorico.com/j2x/index.html)
 
 ## Code
 
-- Full code [https://s3.eu-central-1.amazonaws.com/saorico.com/j2x/lessonX.zip]
+- Full code (https://s3.eu-central-1.amazonaws.com/saorico.com/j2x/lessonX.zip)
 
 ```java
 public abstract class Country {
@@ -82,8 +82,8 @@ public class LandlockedCountry extends Country{
 
 ## Resources
 
-- Java Collections Framework (Oracle doc) [https://docs.oracle.com/javase/8/docs/technotes/guides/collections/index.html]
-- ArrayList (Oracle doc) [https://docs.oracle.com/javase/8/docs/api/index.html?java/util/ArrayList.html]
+- Java Collections Framework (Oracle doc) (https://docs.oracle.com/javase/8/docs/technotes/guides/collections/index.html)
+- ArrayList (Oracle doc) (https://docs.oracle.com/javase/8/docs/api/index.html?java/util/ArrayList.html)
 
 ## Homework
  
