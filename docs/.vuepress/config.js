@@ -11,7 +11,8 @@ module.exports = {
         '/lessons/07-oop-excercises-overloadings',
         '/lessons/preject',
         '/lessons/09-oop-recap-polymorphism',
-        '/lessons/10-data-structures-array-lists'
+        '/lessons/10-data-structures-array-lists',
+        '/lessons/11-data-structures-sets'
       ],
       '/teachers': [
         '/teachers/for-teachers',
