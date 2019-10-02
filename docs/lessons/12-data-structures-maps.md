@@ -330,4 +330,4 @@ public class MapsExercise7 {
 
  - [📖 Java HashMap vs TreeMap](https://www.baeldung.com/java-treemap-vs-hashmap)
  - [📺 How HashMap works internally](https://www.youtube.com/watch?v=CojCE-ojdGY)
- - [📄 https://docs.oracle.com/javase/8/docs/api/java/util/Map.html]
+ - [📄 Map Javadoc](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html)
