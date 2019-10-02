@@ -1,8 +1,7 @@
 const teachers = {
     'Michele': {
-        name: 'Michele Palmia',
-        avatar: 'https://pbs.twimg.com/profile_images/699943284580466688/x-0T9IuD_400x400.jpg',
-        twitter: '@maciejwalkowiak'
+        name: 'Michele',
+        avatar: 'https://pbs.twimg.com/profile_images/699943284580466688/x-0T9IuD_400x400.jpg'
     },
     'Renato': {
         name: 'Renato',

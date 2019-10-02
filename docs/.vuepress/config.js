@@ -12,7 +12,8 @@ module.exports = {
         '/lessons/preject',
         '/lessons/09-oop-recap-polymorphism',
         '/lessons/10-data-structures-array-lists',
-        '/lessons/11-data-structures-sets'
+        '/lessons/11-data-structures-sets',
+        '/lessons/12-data-structures-maps'
       ],
       '/teachers': [
         '/teachers/for-teachers',
