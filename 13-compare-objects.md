@@ -191,6 +191,7 @@ average of scores is the sum of all scores divided by the number of studens
 
 
 <Solution>
+
 ```java
 public class Main{
 
