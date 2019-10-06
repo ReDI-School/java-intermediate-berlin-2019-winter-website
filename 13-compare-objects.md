@@ -187,7 +187,7 @@ Write a program that creates a map of students and their score like previouse ex
 
 ### hint 
 average of scores is the sum of all scores divided by the number of studens
-
+<Solution>
 
 ```java
 
@@ -216,7 +216,7 @@ public class Main{
 }
 ```
 
-
+</Solution>
 ## Additional Resources
 
  - [📖 HashCode and equals (https://www.journaldev.com/21095/java-equals-hashcode)
