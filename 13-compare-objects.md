@@ -190,10 +190,9 @@ Write a program that creates a map of students and their score like previouse ex
 
 ### hint 
 average of scores is the sum of all scores divided by the number of studens
-
-
 <Solution>
 ```java
+
 public class Main{
 
     public static void main(String [] args) {
