@@ -82,7 +82,7 @@ public class Main {
 Create student class with fields: first name, last name, age, course. then override hashcode and equal functions and create 3 objects from this class
 two of them are the same. then create a HashSet of these students and print the size of the list
 
-
+<Solution>
 
 ```java
 
@@ -142,14 +142,14 @@ public class Main {
 }
 ```
 
-
+</Solution>
 ### Exercise 2
 
 Use the same student class and and create a lookup . the key is the student and the value is the number of project score he got for example
 harry potter ==> 20
 
 - try to define two object with same first name and last name but with different age and try to add it to the lookup
-
+<Solution>
 
 ```java
 public class Main{
@@ -173,6 +173,7 @@ public class Main{
 }
 ```
 
+</Solution>
 ### Exercise 3
 
 
