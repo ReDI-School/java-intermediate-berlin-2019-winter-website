@@ -13,7 +13,8 @@ module.exports = {
         '/lessons/09-oop-recap-polymorphism',
         '/lessons/10-data-structures-array-lists',
         '/lessons/11-data-structures-sets',
-        '/lessons/12-data-structures-maps'
+        '/lessons/12-data-structures-maps',
+        '/lessons/13-data-structures-compare-objects',
       ],
       '/teachers': [
         '/teachers/for-teachers',

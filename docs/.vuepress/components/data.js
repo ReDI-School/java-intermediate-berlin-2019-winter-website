@@ -11,8 +11,8 @@ const teachers = {
         name: 'Rahul',
         avatar: 'https://ui-avatars.com/api/?name=R&size=100'
     },
-    'Ahmad': {
-        name: 'Ahmad',
+    'Ahmed': {
+        name: 'Ahmed',
         avatar: 'https://ui-avatars.com/api/?name=A&size=100'
     },
     'Saeed': {
