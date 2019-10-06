@@ -151,6 +151,7 @@ harry potter ==> 20
 - try to define two object with same first name and last name but with different age and try to add it to the lookup
 
 <Solution>
+
 ```java
 public class Main{
 
@@ -172,6 +173,7 @@ public class Main{
     }
 }
 ```
+
 </Solution>
 
 ### Exercise 3
