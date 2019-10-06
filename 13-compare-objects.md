@@ -85,6 +85,7 @@ two of them are the same. then create a HashSet of these students and print the 
 
 <Solution>
 ```java
+
 public class Student {
 
     public String firstName;
