@@ -83,7 +83,7 @@ Create student class with fields: first name, last name, age, course. then overr
 two of them are the same. then create a HashSet of these students and print the size of the list
 
 
-<Solution>
+
 ```java
 
 public class Student {
@@ -141,7 +141,7 @@ public class Main {
     }
 }
 ```
-</Solution>
+
 
 ### Exercise 2
 
