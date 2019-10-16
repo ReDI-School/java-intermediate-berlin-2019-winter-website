@@ -1,4 +1,4 @@
-# 13- Data Structures: Compare objects
+# 13 - Data Structures: Compare objects
 
 <Teacher name="Ahmed"></Teacher>
 
