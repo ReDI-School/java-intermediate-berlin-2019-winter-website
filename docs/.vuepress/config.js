@@ -17,6 +17,7 @@ module.exports = {
         '/lessons/13-data-structures-compare-objects',
         '/lessons/14-data-structures-sorting',
         '/lessons/15-oop-data-structure-recap',
+         '/lessons/project',
     ],
       '/teachers': [
         '/teachers/for-teachers',
