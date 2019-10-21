@@ -29,14 +29,14 @@ What structures do we need? Let's create them!
 Let's add some payments in our bank. Pay attention, how we make sure that the payments are unique? How are we going 
 to store them?
 
-#### Let's do some calculations! :mag: 
+#### Let's do some calculations! :mag: :chart_with_upwards_trend:
 Show the user their the most expensive payment:
 
 ```
 The biggest payment is: 2001003 [-200$, "Groceries", 2019, October]
 ```
 
-#### Let's do some calculations! :mag: 
+#### Let's do some calculations! :mag: :chart_with_upwards_trend:
 Show the user their total income:
 
 ```
@@ -105,14 +105,14 @@ public class SwitchDemo {
 }
 ```
 
-#### Let's do some calculations! :mag: 
+#### Let's do some calculations! :mag: :chart_with_upwards_trend:
 Show the user their biggest income:
 
 ```
 The biggest income is: 2001003 [1200$, "Income", 2019, October]
 ```
 
-#### Let's do some calculations! :mag: 
+#### Let's do some calculations! :mag: :chart_with_upwards_trend:
 Show the user their total spending:
 
 ```

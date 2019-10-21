@@ -1,6 +1,6 @@
-# Project
+# Project 
 
-## Project rules:
+## Project rules 
 - Choose and share your idea with the teachers before 01.11
 - You are working on the project until the end of the course
 - You can work in groups (you should tell us that you are working in a group)
@@ -8,8 +8,8 @@
 - You can use something that was not covered during the course
 - You can (but don't have to) use one of our ideas
 
-## Project ideas
-### Text analysis
+## Project ideas :bulb: :bulb: :bulb: 
+### Text analysis :book: 
 #### Description:
 A user can enter a text using the console. The application should calculate a statistics and show it to the user:
 
@@ -18,7 +18,7 @@ A user can enter a text using the console. The application should calculate a st
 - the longest word
 - the longest sentence
 - top 5 the most popular words in the text 
-#### Bonus:
+#### Bonus: :arrow_upper_right:
 If you finished the exercise, here some ideas how you can make it more complex and use something else:
 
 - Read a text from a file
@@ -32,34 +32,34 @@ each file + a statistics for the folder, that contains:
     - The top 5 the most popular words across all the texts
 - Add tests for your application
 
-#### You will use from the course:
+#### You will use from the course: :white_check_mark:
 - OOP
 - Data Structures 
 - Tests
 - File IO
 
-#### You will need to learn yourself:
+#### You will need to learn yourself: :mag: 
 - String operations
 
-### Phone Index
+### Phone Index :iphone: 
 #### Description:
 A user can enter a text using the console. Which contains phone number and name and they should be able to 
 - save number
 - add new numbers later
 - search for contact by name or phone number
 
-#### Bonus:
+#### Bonus: :arrow_upper_right:
 If you finished the exercise, here some ideas how you can make it more complex and use something else:
 
 - user can search for number and delete it from phone index
 
-#### You will use from the course:
+#### You will use from the course: :white_check_mark:
 - OOP
 - Data Structures 
 - Tests
 - File IO
 
-#### You will need to learn yourself:
+#### You will need to learn yourself: :mag: 
 - String operations
 
 ### will be added more ... 
