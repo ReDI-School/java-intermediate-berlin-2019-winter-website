@@ -62,4 +62,49 @@ If you finished the exercise, here some ideas how you can make it more complex a
 #### You will need to learn yourself: :mag: 
 - String operations
 
-### will be added more ... 
+### Accounting software 📈
+#### Description:
+A user can enter expenses and earnings using a console. They should be able to:
+- retrieve all previously inserted expenses and earnings
+- receive summaries and balances
+- save and load data to and from file, to use it later on
+
+#### Bonus: :arrow_upper_right:
+If you finished the exercise, here some ideas how you can make it more complex and use something else:
+
+- have a simple user management system that allows different users to register and log in the system, and store their data in different files
+- use a real db!
+
+#### You will use from the course: :white_check_mark:
+- OOP
+- Data Structures 
+- Tests
+- File IO
+
+#### You will need to learn yourself: :mag: 
+- String operations
+- Potentially, simple database operations
+
+### Twitter analysis 🐦
+#### Description:
+A lot of things are said on Twitter every day - the analysis of tweets can be very valuable!
+The user of your program should be able to select a tag/topic, anx the program could fetch the last tweets on the topic and return some basic statistics
+
+- most mentioned words (removing very common words?)
+- most used emojis
+- most active user
+
+#### Bonus: :arrow_upper_right:
+If you finished the exercise, here some ideas how you can make it more complex and use something else:
+
+- you could use a graphing library to actually output nice graphs!
+
+#### You will use from the course: :white_check_mark:
+- OOP
+- Data Structures 
+- Tests
+- File IO
+
+#### You will need to learn yourself: :mag: 
+- using Twitter Java API (maybe [http://twitter4j.org/en/](http://twitter4j.org/en/)? )
+- potentially, using a graphing library
