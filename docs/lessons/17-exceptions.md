@@ -15,21 +15,93 @@
 
 ### Exercise 1 - Getting to know exceptions
 - In your `main` method, use a `Scanner` to get a user input, and try to convert it to Integer. What happens if you run your program and input something that's not convertible to an integer?
+
+<Solution>
+```java
+Scanner scanner = new Scanner(System.in);
+String userInput = scanner.nextLine();
+
+// if the user has inserted a string
+// this will throw an exception
+Integer.parseInt(userInput);
+```
+</Solution>
+
 - In your `main` method, create a `List<String>` and print the string at position 3 in the list. What happens when you run your program?
+
+<Solution>
+```java
+List<String> emptyList = new ArrayList<>();
+
+// this will throw an exception in any case!
+emptyList.get(5) 
+```
+</Solution>
+
 - Try reading a file using a `FileInputStream`. Does it work? If not, why not?
   Advice: You can try reading a file from `/some/path` like this:
-  ```java
-  FileInputStream inputStream = new FileInputStream(new File("/some/path"));
-  // do stuff with inputStream
-  inputStream.close();
-  ```
+```java
+// this does not work just like this, since FileNotFoundException is a checked exception
+FileInputStream inputStream = new FileInputStream(new File("/some/path"));
+// do stuff with inputStream
+inputStream.close();
+```
 
 ### Exercise 2 - Handling exceptions
 - How can you check that the user has actually entered an integer? How can you use exception-catching to solve this issue?
+
+<Solution>
+```java
+Scanner scanner = new Scanner(System.in);
+try {
+	String userInput = scanner.nextLine();
+} catch (NumberFormatException nfe) {
+	// oh oh! something went wront
+	// let's just print the stack trace
+	nfe.printStackTrace();
+}
+```
+</Solution>
+
 - Can you make your `Pizza`/`Moma`/`Bank` code from last week more reliable by catching exceptions on user input?
 
 ### Exercise 3 - finally clause
 - Can you close the `inputStream` from exercise 1 after using it? You can print "Closing input stream" when calling `inputStream.close()` to make sure you're actually doing it!
+
+<Solution>
+```java
+FileInputStream inputStream = null;
+try {
+    System.out.println("Opening stream from file");
+    inputStream = new FileInputStream(
+            new File("/some/path"));
+
+    // what if an exception happens here?
+
+} catch (FileNotFoundException fnfE) {
+    System.out.println("Something bad happened: " + fnfE.getMessage());
+    fnfE.printStackTrace();
+} finally {
+    System.out.println("Closing input stream");
+    inputStream.close();
+}
+```
+
+Java also offers a special syntax for classes that implement the `AutoCloseable` (or `Closeable`) interfaces. We're lucky, because `FileInputStream` does! You can find more info on how this works on the [official Java tutorials](https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html).
+
+```java
+try (FileInputStream inputStream = new FileInputStream(new File("/some/path"))) {
+
+    inputStream.read();
+    // anything bad happening here doesn't matter
+    // the input stream will be closed at the end of the block
+    // without us having to do anything!
+    
+} catch (IOException e) {
+    // we still need to catch exceptions thrown by the inputstream
+}
+```
+</Solution>
 
 ### Recap
 Let's make a *silly calculator*. A calculator that can only do very few, very simple operations.
@@ -46,6 +118,6 @@ After the user has chosen one of these operations, they should be asked to enter
 
 ## Additional Resources
 
-- [https://www.tutorialspoint.com/java/java_exceptions.htm](https://www.tutorialspoint.com/java/java_exceptions.htm)
-- [https://www.baeldung.com/java-exceptions](https://www.baeldung.com/java-exceptions)
-- [https://programming.guide/java/list-of-java-exceptions.html](https://programming.guide/java/list-of-java-exceptions.html)
+- [StackOverflow - Understanding checked vs unchecked exceptions](https://stackoverflow.com/questions/6115896/understanding-checked-vs-unchecked-exceptions-in-java)
+- [StackOverflow - Differences between Exception and Error](https://stackoverflow.com/questions/912334/differences-between-exception-and-error)
+- [Java Exceptions on Baeldung](https://www.baeldung.com/java-exceptions)

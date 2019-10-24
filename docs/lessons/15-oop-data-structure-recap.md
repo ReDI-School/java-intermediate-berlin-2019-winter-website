@@ -61,6 +61,113 @@ Can we make it better?
 - Can you have the `Menu` class return the average price of the `Pizzas` it stores?
 
 
+<Solution>
+*Pizza.java*
+```java
+import java.util.Collection;
+import java.util.Set;
+
+public class Pizza {
+    private String name;
+    private Set<String> ingredients;
+    private double price;
+    private String description;
+
+    public Pizza(String name,
+                 Set<String> ingredients,
+                 double price,
+                 String description) {
+        this.name = name;
+        this.ingredients = ingredients;
+        this.price = price;
+        this.description = description;
+    }
+
+    public String printMenuItem() {
+        return this.name + " - " + this.price + "\n" + this.ingredients;
+    }
+
+    public Collection<String> getIngredients() {
+        return ingredients;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setIngredients(Set<String> ingredients) {
+        this.ingredients = ingredients;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+}
+```
+
+*PizzaMenu.java*
+```java
+import java.util.*;
+
+public class PizzaMenu {
+    public static void main(String[] args) {
+
+        // ingredients for margherita
+        Set<String> margheritaIngredients = new HashSet<>();
+        margheritaIngredients.add("Mozzarella");
+        margheritaIngredients.add("Tomato");
+
+        Set<String> tunaIngredients = new HashSet<>();
+        margheritaIngredients.add("Mozzarella");
+        margheritaIngredients.add("Tomato");
+        margheritaIngredients.add("Tuna");
+        margheritaIngredients.add("Onions");
+
+        // define margherita pizza
+        Pizza margherita = new Pizza("margherita", margheritaIngredients, 5, "A nice pizza");
+        Pizza tuna = new Pizza("tuna", tunaIngredients, 6, "A nicer pizza");
+
+        // put all the pizzas in the menu
+        Map<String, Pizza> pizzas = new HashMap<>();
+        pizzas.put(margherita.getName(), margherita);
+        pizzas.put(tuna.getName(), tuna);
+
+        // iterate over pizzas
+        for (Map.Entry<String, Pizza> entry : pizzas.entrySet()) {
+            Pizza pizzaEntry = entry.getValue();
+
+            System.out.println(pizzaEntry.printMenuItem());
+        }
+
+        // let the user choose over pizzas
+        System.out.println("Please select a pizza:");
+        Scanner scanner = new Scanner(System.in);
+        String input = scanner.nextLine();
+
+        Pizza userChosenPizza = pizzas.get(input);
+        System.out.println(userChosenPizza.printMenuItem());
+    }
+}
+```
+
+</Solution>
+
 ## Exercise
 
 ### 🖼 MoMa 2019 🖼
