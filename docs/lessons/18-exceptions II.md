@@ -3,8 +3,8 @@
 <Teacher name="Ahmed"></Teacher>
 
 ## Goals
-- define custome exceptions
-- use custome exception to controll program error flow
+- define custom exceptions
+- use custome exception to control program error flow
 
 
 ## Slides

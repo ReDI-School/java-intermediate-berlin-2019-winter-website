@@ -20,6 +20,7 @@ module.exports = {
         '/lessons/project',
         '/lessons/16-oop-data-structure-recap-2',
         '/lessons/17-exceptions',
+        '/lessons/18-exceptions 2',
     ],
       '/teachers': [
         '/teachers/for-teachers',
