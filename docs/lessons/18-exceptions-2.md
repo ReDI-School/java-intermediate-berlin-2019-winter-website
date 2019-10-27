@@ -1,4 +1,4 @@
-# 18 - Exception II
+# 18 - Exceptions II
 
 <Teacher name="Ahmed"></Teacher>
 
@@ -8,7 +8,7 @@
 
 
 ## Slides
-<GoogleSlides src="https://docs.google.com/presentation/d/1mwZrQB23vDYbxyCAYoI9ohjCvNuAnnDyMzc0hf7KLGo/edit?usp=sharing/embed?start=false&loop=false&delayms=3000"></GoogleSlides>
+<GoogleSlides src="https://docs.google.com/presentation/d/1mwZrQB23vDYbxyCAYoI9ohjCvNuAnnDyMzc0hf7KLGo/embed?start=false&loop=false&delayms=3000"></GoogleSlides>
 
 
 ## Hint: read input from user

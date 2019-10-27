@@ -1,4 +1,4 @@
-# 17 - Exception
+# 17 - Exceptions
 
 <Teacher name="Michele"></Teacher>
 
