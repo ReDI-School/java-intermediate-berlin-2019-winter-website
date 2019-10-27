@@ -27,7 +27,7 @@ then trow InvalidPhoneNumberException
  - last name length is below 3 characters
  - age is less than zero
 
-###Excercise 3 - lets create a simple (Rock, Paper, Scissor) .if you dont know the game here are the rule 
+### Excercise 3 - lets create a simple (Rock, Paper, Scissor) .if you dont know the game here are the rule 
  - Rock beats Scissor
  - Scissor beats Paper
  - Paper beats Rock
