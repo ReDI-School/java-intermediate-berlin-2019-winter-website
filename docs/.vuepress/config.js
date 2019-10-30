@@ -21,6 +21,7 @@ module.exports = {
         '/lessons/16-oop-data-structure-recap-2',
         '/lessons/17-exceptions',
         '/lessons/18-exceptions-2',
+	'/lessons/19-exceptions-2-solutions',
     ],
       '/teachers': [
         '/teachers/for-teachers',
