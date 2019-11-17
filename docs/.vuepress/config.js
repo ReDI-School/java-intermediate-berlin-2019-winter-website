@@ -23,6 +23,7 @@ module.exports = {
         '/lessons/18-exceptions-2',
         '/lessons/19-exceptions-2-solutions',
         '/lessons/21-file-io-1',
+	'/lessons/22-libraries',
     ],
       '/teachers': [
         '/teachers/for-teachers',
