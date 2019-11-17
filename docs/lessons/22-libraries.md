@@ -7,7 +7,7 @@
 - create your own library
 - use library in different project
 
-## why do need to create libraries 
+## why do we need to create libraries 
 
  
 
