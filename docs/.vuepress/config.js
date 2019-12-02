@@ -25,6 +25,7 @@ module.exports = {
         '/lessons/21-file-io-1',
 	      '/lessons/22-libraries',
         '/lessons/23-json',
+        '/lessons/24-coding',
     ],
       '/teachers': [
         '/teachers/for-teachers',
